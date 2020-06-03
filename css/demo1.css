@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol, ul, li {
+  margin: 0px;
+  padding: 0px;
+}
+
+li, ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  display: block;
+}
+
+input {
+  border: none;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearFixed:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+img {
+  display: block;
+}
+
+input {
+  border: none;
+}
+
+.btn1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+}
+
+.btn2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 1px;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  border-bottom-color: #00b38a;
+}
+
+body {
+  background: #f8f9fc;
+}
+
+.header {
+  height: 360px;
+  background: #00b38a;
+}
+
+.boxCon {
+  position: absolute;
+  left: 50%;
+  margin-left: -325px;
+  top: 77px;
+  width: 700px;
+  height: 499px;
+  background: #fff;
+}
+
+.boxCon .logo {
+  height: 77px;
+  background: #00b38a url("../img2/logo.png") no-repeat;
+}
+
+.boxCon .forBox {
+  height: 408px;
+  border: 1px solid #dce1e6;
+  padding: 6px;
+}
+
+.boxCon .forBox .inpLeft {
+  width: 290px;
+  height: 277px;
+  padding: 0 63px;
+  border-right: 1px dashed #555;
+  position: relative;
+}
+
+.boxCon .forBox .inpLeft .or {
+  position: absolute;
+  right: -8px;
+  top: 48%;
+  text-align: center;
+  color: #555;
+  height: 18px;
+  width: 18px;
+  margin-top: -9px;
+  background: #fff;
+}
+
+.boxCon .forBox .inpLeft input[type="submit"] {
+  height: 48px;
+  background: #00b38a;
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.boxCon .forBox .inpLeft .txt {
+  color: #00b38a;
+  font-size: 12px;
+  height: 58px;
+  line-height: 60px;
+  text-align: right;
+}
+
+.boxCon .forBox .inpLeft .lintInp {
+  height: 64px;
+  border-bottom: 1px solid #555;
+}
+
+.boxCon .forBox .inpLeft .lintInp input {
+  width: 100%;
+  height: 44px;
+  padding-top: 20px;
+  text-indent: 10px;
+}
+
+.boxCon .forBox .inpLeft .line1 {
+  font-size: 18px;
+  color: #555;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #555;
+}
+
+.boxCon .forBox .inpLeft .line1 p {
+  width: 145px;
+  text-align: center;
+  position: relative;
+}
+
+.boxCon .forBox .inpLeft .line1 p:nth-child(1) {
+  color: #00b38a;
+  border-bottom: 1px solid #00b38a;
+}
+
+.boxCon .forBox .inpRight {
+  padding-left: 52px;
+  color: #555;
+  font-size: 14px;
+  padding-top: 80px;
+}
+
+.boxCon .forBox .inpRight .txt2 {
+  font-size: 16px;
+  color: #00b38a;
+  margin-bottom: 44px;
+  margin-top: 5px;
+}
+
+.boxCon .forBox .inpRight .txt2 img {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.boxCon .forBox .inpRight .txt3 img {
+  margin-right: 24px;
+  margin-top: 10px;
+}
+
+.boxCon .forBox .imgBox {
+  height: 52px;
+}
+
+.boxCon .forBox .imgBox img {
+  margin-right: 6px;
+}
+
+.boxCon .forBox .imgBox img:nth-child(2) {
+  margin-top: -5px;
+}
+
+.span {
+  border: 1px solid red;
+  position: relative;
+  width: 100px;
+}
+
+.span span:nth-child(1) {
+  border: 20px solid transparent;
+  border-bottom-color: blue;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
